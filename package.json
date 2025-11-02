@@ -1,0 +1,12 @@
+{
+  "name": "claycare-store",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "mongodb": "^5.0.0",
+    "uuid": "^9.0.0"
+  }
+}
