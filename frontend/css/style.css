@@ -1,0 +1,32 @@
+:root{
+  --bg: #f5ecd6;
+  --brown: #7a3f1b;
+  --accent: #c07b45;
+  --muted: #9b7a60;
+}
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, Arial, sans-serif;margin:0;background:var(--bg);color:var(--brown)}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+.site-header{padding:18px 0}
+.brand{font-weight:700;text-decoration:none;color:var(--brown);display:flex;align-items:center;gap:10px}
+.logo-small{height:36px}
+.nav a{margin-left:16px;text-decoration:none;color:var(--brown);opacity:.9}
+.container{padding:30px 0}
+.hero{display:flex;gap:30px;align-items:center}
+.hero-left{flex:1}
+.hero-right{width:320px}
+.hero-right img{width:100%;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.08)}
+h1{font-size:36px;margin:0}
+.accent{color:var(--accent)}
+.lead{color:var(--muted);margin-top:8px}
+.product-card{margin-top:18px;padding:18px;border-radius:12px;background:rgba(255,255,255,.6);box-shadow:0 6px 18px rgba(0,0,0,.04);text-align:left}
+.price{font-size:22px;font-weight:700}
+.cta-row{margin-top:16px;display:flex;gap:10px}
+button{background:var(--brown);color:white;padding:12px 18px;border-radius:40px;border:none;cursor:pointer}
+button.muted{background:transparent;color:var(--brown);border:1px solid rgba(0,0,0,.06)}
+.about{margin-top:40px;text-align:center}
+.site-footer{padding:20px 0;text-align:center;color:var(--muted);margin-top:40px}
+@media(max-width:800px){
+  .hero{flex-direction:column}
+  .hero-right{width:100%}
+}
