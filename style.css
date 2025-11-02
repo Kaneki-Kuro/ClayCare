@@ -102,3 +102,11 @@ footer {
   color: #fff;
   font-size: 0.9rem;
 }
+header {
+  background: #cda67f;
+  padding: 12px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+}
